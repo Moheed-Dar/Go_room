@@ -1,86 +1,37 @@
-import React from 'react'
+import React from 'react';
 
 const FaQ = () => {
   return (
     <>
-      <div className='mt-18 w-full  mask-radial-from-neutral-50 ' >
-        <h1 className='text-7xl font-bold flex items-center justify-center' >FREQUENTLY ASKED</h1>
-        <h1 className='text-7xl font-bold flex items-center justify-center' >QUESTIONS</h1>
+      <div className="mt-18 w-full text-center mask-radial-from-neutral-50">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold" >FREQUENTLY ASKED</h1>
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold">QUESTIONS</h1>
       </div>
-      <div className='grid grid-rows-8 mt-12 items-center   ' >
-        <div className='grid grid-cols-2  ms-20 me-40 pb-10  items-center border-b-1 border-gray-700 ' >
-          <div>
-            <h1 className='text-gray-800' >Lorem ipsum dolor sit, amet consectetur adipisicing elit?</h1>
+
+      <div className="mt-12 px-4 md:px-16 lg:px-36">
+        {Array.from({ length: 8 }).map((_, index) => (
+          <div
+            key={index}
+            className="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-700 py-6"
+          >
+            <h1 className="text-gray-800 text-base md:text-lg">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit?
+            </h1>
+            <div className="text-gray-800 text-2xl md:text-3xl mt-2 md:mt-0 md:pe-4">
+              +
+            </div>
           </div>
-          <div className='flex justify-end pe-10 text-3xl text-gray-800 items-center' >
-            +
-          </div>
-        </div>
-        <div className='grid grid-cols-2  ms-20 me-40 pb-10 mt-10  items-center border-b-1 border-gray-700 ' >
-          <div>
-            <h1 className='text-gray-800' >Lorem ipsum dolor sit, amet consectetur adipisicing elit?</h1>
-          </div>
-          <div className='flex justify-end pe-10 text-3xl text-gray-800 items-center' >
-            +
-          </div>
-        </div>
-        <div className='grid grid-cols-2  ms-20 me-40 pb-10 mt-10  items-center border-b-1 border-gray-700 ' >
-          <div>
-            <h1 className='text-gray-800' >Lorem ipsum dolor sit, amet consectetur adipisicing elit?</h1>
-          </div>
-          <div className='flex justify-end pe-10 text-3xl text-gray-800 items-center' >
-            +
-          </div>
-        </div>
-        <div className='grid grid-cols-2  ms-20 me-40 pb-10 mt-10  items-center border-b-1 border-gray-700 ' >
-          <div>
-            <h1 className='text-gray-800' >Lorem ipsum dolor sit, amet consectetur adipisicing elit?</h1>
-          </div>
-          <div className='flex justify-end pe-10 text-3xl text-gray-800 items-center' >
-            +
-          </div>
-        </div>
-        <div className='grid grid-cols-2  ms-20 me-40 pb-10 mt-10  items-center border-b-1 border-gray-700 ' >
-          <div>
-            <h1 className='text-gray-800' >Lorem ipsum dolor sit, amet consectetur adipisicing elit?</h1>
-          </div>
-          <div className='flex justify-end pe-10 text-3xl text-gray-800 items-center' >
-            +
-          </div>
-        </div>
-        <div className='grid grid-cols-2  ms-20 me-40 pb-10 mt-10  items-center border-b-1 border-gray-700 ' >
-          <div>
-            <h1 className='text-gray-800' >Lorem ipsum dolor sit, amet consectetur adipisicing elit?</h1>
-          </div>
-          <div className='flex justify-end pe-10 text-3xl text-gray-800 items-center' >
-            +
-          </div>
-        </div>
-        <div className='grid grid-cols-2  ms-20 me-40 pb-10 mt-10  items-center border-b-1 border-gray-700 ' >
-          <div>
-            <h1 className='text-gray-800' >Lorem ipsum dolor sit, amet consectetur adipisicing elit?</h1>
-          </div>
-          <div className='flex justify-end pe-10 text-3xl text-gray-800 items-center' >
-            +
-          </div>
-        </div>
-        <div className='grid grid-cols-2  ms-20 me-40 pb-10 mt-10  items-center border-b-1 border-gray-700 ' >
-          <div>
-            <h1 className='text-gray-800' >Lorem ipsum dolor sit, amet consectetur adipisicing elit?</h1>
-          </div>
-          <div className='flex justify-end pe-10 text-3xl text-gray-800 items-center' >
-            +
-          </div>
-        </div>
-        <div className='grid grid-cols-1 mx-auto mt-25 mb-10 ' >
-          <div className='bg-black text-white flex  items-center  justify-center h-15 w-80 font-semibold  text-xl ' >
-            <button  >Let's Connect </button>
-            <h1 className='ps-4 text-3xl' >→</h1>
+        ))}
+
+        <div className="flex justify-center mt-16 mb-10">
+          <div className="bg-black text-white flex items-center justify-center h-14 w-72 font-semibold text-lg md:text-xl">
+            <button>Let's Connect</button>
+            <h1 className="ps-3 text-2xl md:text-3xl">→</h1>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default FaQ
+export default FaQ;

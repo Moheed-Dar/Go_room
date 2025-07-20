@@ -16,6 +16,16 @@ const Work = () => {
                         <li><a href="#" >Lorem, ipsum </a></li>
                         <li><a href="#" >Lorem, ipsum </a></li>
                     </ul>
+                     <ul className="leading-9 ps-25  ">
+                            {['Lorem','Lorem','Lorem','Lorem','Lorem','Lorem'].map((item, index) => (
+                                <li
+                                    key={index}
+                                    className="cursor-pointer group px-2 py-1 group-hover:font-semibold"
+                                >
+                                    {item}
+                                </li>
+                            ))}
+                        </ul>
                 </div>
                 <div className='basis-2/3 mt-10 ms-20  ' >
                     <p className='text-justify pe-40 leading-7  ' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
