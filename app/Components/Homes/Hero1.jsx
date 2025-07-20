@@ -17,7 +17,7 @@ const Hero1 = () => {
                 <h1 className=' text-center md:text-6xl text-4xl  lg:text-8xl font-bold flex items-center justify-center' >FIND A ROOM FOR</h1>
                 <h1 className=' text-center md:text-6xl text-4xl  lg:text-8xl font-bold flex items-center justify-center' >YOUR VISION</h1>
             </div>
-            <div className='grid grid-cols-2  md:px-2 px-1 mx-5 ' >
+            <div className='grid grid-cols-2  md:px-2 md:mx-5  ' >
                 <div className='flex justify-start items-center md:ms-3 mb-10 md:mb-2 text-sm ' >
                     <h1 className='mask-radial-from-neutral-100 font-semibold ' >Stay in style. Rest<br></br> with purpose </h1>
                 </div>
@@ -25,7 +25,7 @@ const Hero1 = () => {
                     <h1 className='mask-radial-from-neutral-100 font-semibold' >Where comfort meets<br></br> class --every stay, every time </h1>
                 </div>
             </div>
-            <div className='mx-5 mt-2 relative'>
+            <div className='md:mx-5 mt-2 relative'>
                 <Image   src='/img1.jpg'  alt='hero1 ke image'  className='w-full object-cover rounded-xl max-h-[500px] md:max-h-[600px]' width={1600}  height={500} />
                 {/* Desktop Vali screen ka lea */}
                 <div className='hidden md:grid grid-cols-3 absolute bottom-0 left-0 w-full pt-10'>

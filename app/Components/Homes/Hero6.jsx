@@ -4,10 +4,10 @@ import React from 'react'
 const Hero6 = () => {
     return (
         <>
-            <div className='mt-11 w-full   mask-radial-from-neutral-50 ps-10 mb-10 ' >
-                <h1 className='text-6xl  font-bold flex items-center justify-center' >NEWS & ARITCLES</h1>
+            <div className='mt-11 w-full  mb-5 mask-radial-from-neutral-50 md:ps-10 md:mb-10 ' >
+                <h1 className='md:text-6xl text-4xl text-center  font-bold flex items-center justify-center' >NEWS & ARITCLES</h1>
             </div>
-            <div className='grid md:grid-cols-4 grid-cols-1 gap-6  p-8 ' >
+            <div className='grid md:grid-cols-4 grid-cols-1 gap-6  md:p-8 ' >
                 <div className='my-7 md:my-0 ' >
                     <Image src='/imgi1.avif'  className='rounded-md' width={1000} height={0} alt="not image found " />
                     <h1 className='pt-2 pb-2  text-sm ' >Interviews . Now 20, 2024</h1>

@@ -3,7 +3,7 @@ import React from 'react'
 const LinkFooter = () => {
   return (
     <>
-    <div className='grid grid-cols-1 md:text-start text-center  md:grid-cols-5 gap-6 md:mt-25 md:px-2  md:mb-10 ' >
+    <div className='grid grid-cols-1 md:text-start text-center  md:grid-cols-5 gap-10 md:mt-25 md:px-2  md:mb-10 ' >
         <div className='md:ps-10' >
                 <h1 className='font-bold pb-3' >Go_room</h1>
                 <p className='text-gray-800'>Redefining hospitality<br/>with small luxury, sustainability, and heart.</p>

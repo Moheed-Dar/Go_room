@@ -18,7 +18,7 @@ const Hero2 = () => {
                     <h1 className='text-8xl font-bold flex items-center justify-center'>A ROOM FOR</h1>
                     <h1 className='text-8xl font-bold flex items-center justify-center'>EVERY OCCASION</h1>
                 </div>
-                <div id='nav1' className='p-2 mt-7 text-gray-500'>
+                <div id='nav1' className='md:p-2 mt-7 text-gray-500'>
                     <nav className='flex items-center justify-between mx-4'>
                         {navItems.map((item, index) => (
                             <ul key={index}>
@@ -37,7 +37,7 @@ const Hero2 = () => {
                     <div>
                         <h1 className='metal-mania-regular1 text-4xl mx-10 md:py-10'>WHY GUESTS CHOOSE US</h1>
                         <div className='grid grid-rows-2 mx-10 md:gap-10 gap-3'>
-                            <div className='grid grid-cols-2'>
+                            <div className='grid grid-cols-2'> 
                                 <FeatureItem src='/img3.webp' text='Custom Interiors' />
                                 <FeatureItem src='/img4.png' text='Zero Hassle Booking' />
                             </div>
@@ -60,7 +60,7 @@ const Hero2 = () => {
             </div>
 
             {/* Mobile View ka lea */}
-            <div className='block lg:hidden px-4 pt-10'>
+            <div className='block lg:hidden px-1 pt-10'>
                 <h1 className='text-4xl my-10 font-bold text-center mask-radial-from-neutral-50'>A ROOM FOR EVERY OCCASION</h1>
 
                 <div className='flex flex-wrap gap-3 justify-center mt-5'>

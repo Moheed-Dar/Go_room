@@ -5,8 +5,8 @@ import React from 'react'
 const Hero5 = () => {
     return (
         <>
-            <div className='grid grid-cols-1 lg:grid-cols-2 mt-30 gap-6'>
-                <div className='ms-8 p-2'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 md:mt-30 mt-20 gap-6'>
+                <div className='md:ms-8 md:p-2'>
                     <h1 className='text-[50px] md:text-[100px] font-bold text-black leading-none'>FIND 300+</h1>
                     <h1 className='text-[50px] md:text-[100px] font-bold text-black leading-none mb-10'>LOCATION</h1>
                     <p className='text-gray-700 ms-2'>Choose from our top-rated hotel branches <br /> across the country</p>
